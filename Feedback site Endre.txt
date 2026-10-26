@@ -1,0 +1,14 @@
+- domeniu .ro
+- scos 2 ani
+- 'oamenii obisnuiti' => atat oameni mai tineri care sunt la inceput de drum si vor sa faca ceva cat si oameni cu experienta care au niste venituri bune si vor sa le consolideze
+- liniutele lungi sa fie schimbate in '-' 
+- evita in text cuvantul 'ajuta'
+- comprima textul, e foarte mult si poate plictisi omul privitor 
+- scoate mesajul cu 'imi place sa lucrez cu oamenii si e complicat doar cand lucrezi cu oamenii nepotriviti (...)' (partea aia) inlocuieste-ul cu de ce fac ceea ce fac pentru ca imi doresc o cariera in care oamenii sa ma sune sa imi spuna ca multumesc Raluca datorita tie am reusit aia aia aia (scrie tu ceva).
+- poti adauga undeva pe la inceput o intrebare specifica (imi poti da idei) care sa starneasca curiozitatea clientilor si sa se regaseasca cu ea 
+
+
+
+
+pe viitor :
+- legatura cu hub
