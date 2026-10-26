@@ -562,6 +562,8 @@ a{ color:inherit; }
   letter-spacing:-.036em; margin:0 0 22px; font-variant-numeric:tabular-nums;
 }
 
+.res__unit{ font-size:16px; font-weight:400; color:var(--muted); letter-spacing:-.01em; }
+
 .meter{
   height:10px; border-radius:100px; background:var(--rose); overflow:hidden;
 }
