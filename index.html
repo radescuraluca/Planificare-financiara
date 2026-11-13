@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;600&family=Newsreader:ital,opsz,wght@1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=2">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -271,18 +271,78 @@
     </div>
   </section>
 
-  <!-- ============ INSTRUMENTE ============ -->
-  <section class="section" id="instrumente">
+  <!-- ============ INTREBARI ============ -->
+  <section class="section section--paper" id="intrebari">
     <div class="wrap">
       <div class="section__head">
-        <p class="eyebrow">Instrumente utile</p>
-        <h2 class="h2">Fă singur <em>primul calcul</em></h2>
-        <p class="section__sub">
-          Trei calculatoare care îți arată, în cifre, ce se întâmplă cu banii tăi în timp.
-          Rezultatele sunt orientative - le putem verifica împreună pe situația ta reală.
-        </p>
+        <p class="eyebrow">Întrebări firești</p>
+        <h2 class="h2">Ce te-ai putea întreba <em>înainte</em><br>de prima discuție</h2>
       </div>
 
+      <div class="faq">
+        <details class="qa">
+          <summary>Cum ar trebui să mă pregătesc pentru prima sesiune?</summary>
+          <p>
+            Este suficient să îți rezervi aproximativ 30–45 de minute și să ai camera
+            deschisă. Poți, de asemenea, să îți notezi în prealabil câteva întrebări,
+            obiective sau subiecte de interes pe care ai vrea să le discutăm împreună
+            cu mine.
+          </p>
+        </details>
+        <details class="qa">
+          <summary>Cât mă costă?</summary>
+          <p>
+            Analiza și prezentarea soluțiilor nu te costă nimic. Sunt remunerată de
+            către furnizorii ale căror soluții le intermediez, doar în momentul în
+            care alegi să închei ceva. Îți spun deschis acest lucru de la prima
+            întâlnire, ca să știi în ce context primești recomandarea.
+          </p>
+        </details>
+        <details class="qa">
+          <summary>Trebuie să semnez ceva la prima întâlnire?</summary>
+          <p>
+            Nu. Prima întâlnire este o discuție de analiză. Nu îți prezint și nu îți
+            propun niciun produs atunci. Dacă cineva te grăbește să semnezi din prima,
+            indiferent cine este, ia-o ca pe un semnal de alarmă.
+          </p>
+        </details>
+        <details class="qa">
+          <summary>Cât durează și unde ne vedem?</summary>
+          <p>
+            O întâlnire durează aproximativ 30–45 de minute. Ne putem vedea față în față
+            în Sibiu sau online, pe Zoom - analiza funcționează la fel de bine în
+            ambele variante. Alegi tu ce îți e mai comod.
+          </p>
+        </details>
+        <details class="qa">
+          <summary>Discuția este confidențială?</summary>
+          <p>
+            Da. Confidențialitatea este foarte importantă pentru mine. Toate informațiile
+            pe care le împărtășești în cadrul discuției, inclusiv cele referitoare la
+            situația ta financiară, obiectivele și planurile tale, sunt tratate cu maximă
+            discreție și protejate în conformitate cu legislația privind protecția datelor
+            personale.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INSTRUMENTE ============ -->
+  <section class="tools-strip" id="instrumente">
+    <div class="wrap">
+      <div class="tools-strip__row">
+        <div>
+          <p class="eyebrow">Pentru curioși</p>
+          <h2 class="tools-strip__title">Fă singur <em>primul calcul</em></h2>
+          <p class="tools-strip__sub">Impactul inflației, dobânda compusă și pensia estimată, în câteva secunde.</p>
+        </div>
+        <button class="btn btn--ghost tools-strip__btn" type="button" id="tools-toggle" aria-expanded="false" aria-controls="tools-panel">
+          Deschide calculatoarele <span aria-hidden="true">↓</span>
+        </button>
+      </div>
+
+      <div class="tools-panel" id="tools-panel" hidden>
       <div class="tools">
         <div class="tabs" role="tablist" aria-label="Calculatoare">
           <button class="tab" type="button" role="tab" id="tab-inf" aria-controls="calc-inf" aria-selected="true">Impact inflație</button>
@@ -389,62 +449,6 @@
         Calculele au caracter informativ și se bazează pe ipotezele introduse de tine. Randamentele
         nu sunt garantate, iar rezultatele nu constituie recomandare de investiție.
       </p>
-    </div>
-  </section>
-
-  <!-- ============ INTREBARI ============ -->
-  <section class="section section--paper" id="intrebari">
-    <div class="wrap">
-      <div class="section__head">
-        <p class="eyebrow">Întrebări firești</p>
-        <h2 class="h2">Ce te-ai putea întreba <em>înainte</em><br>de prima discuție</h2>
-      </div>
-
-      <div class="faq">
-        <details class="qa">
-          <summary>Cum ar trebui să mă pregătesc pentru prima sesiune?</summary>
-          <p>
-            Este suficient să îți rezervi aproximativ 30–45 de minute și să ai camera
-            deschisă. Poți, de asemenea, să îți notezi în prealabil câteva întrebări,
-            obiective sau subiecte de interes pe care ai vrea să le discutăm împreună
-            cu mine.
-          </p>
-        </details>
-        <details class="qa">
-          <summary>Cât mă costă?</summary>
-          <p>
-            Analiza și prezentarea soluțiilor nu te costă nimic. Sunt remunerată de
-            către furnizorii ale căror soluții le intermediez, doar în momentul în
-            care alegi să închei ceva. Îți spun deschis acest lucru de la prima
-            întâlnire, ca să știi în ce context primești recomandarea.
-          </p>
-        </details>
-        <details class="qa">
-          <summary>Trebuie să semnez ceva la prima întâlnire?</summary>
-          <p>
-            Nu. Prima întâlnire este o discuție de analiză. Nu îți prezint și nu îți
-            propun niciun produs atunci. Dacă cineva te grăbește să semnezi din prima,
-            indiferent cine este, ia-o ca pe un semnal de alarmă.
-          </p>
-        </details>
-        <details class="qa">
-          <summary>Cât durează și unde ne vedem?</summary>
-          <p>
-            O întâlnire durează aproximativ 30–45 de minute. Ne putem vedea față în față
-            în Sibiu sau online, pe Zoom - analiza funcționează la fel de bine în
-            ambele variante. Alegi tu ce îți e mai comod.
-          </p>
-        </details>
-        <details class="qa">
-          <summary>Discuția este confidențială?</summary>
-          <p>
-            Da. Confidențialitatea este foarte importantă pentru mine. Toate informațiile
-            pe care le împărtășești în cadrul discuției, inclusiv cele referitoare la
-            situația ta financiară, obiectivele și planurile tale, sunt tratate cu maximă
-            discreție și protejate în conformitate cu legislația privind protecția datelor
-            personale.
-          </p>
-        </details>
       </div>
     </div>
   </section>
@@ -456,28 +460,41 @@
         <p class="eyebrow">Contact</p>
         <h2 class="h2">Hai să <em>vorbim</em></h2>
         <p class="contact__lead">
-          Scrie-mi sau sună-mă. Îți răspund în aceeași zi lucrătoare și stabilim
-          o oră care ți se potrivește.
+          Alege singur ziua și ora pentru o primă întâlnire gratuită, de 30–45 de minute,
+          în Sibiu sau pe Zoom. Fără obligații.
         </p>
       </div>
 
-      <div class="contact__cards">
-        <a class="ccard" href="mailto:ralucar849@gmail.com?subject=Programare%20discu%C8%9Bie%20gratuit%C4%83%20-%20planificare%20financiar%C4%83&body=Bun%C4%83%21%20Am%20v%C4%83zut%20site-ul%20t%C4%83u%20%C8%99i%20mi-a%20atras%20aten%C8%9Bia%20activitatea%20pe%20care%20o%20desf%C4%83%C8%99ori.%20A%C8%99%20fi%20interesat%28%C4%83%29%20de%20o%20discu%C8%9Bie%20gratuit%C4%83%20pentru%20a%20afla%20mai%20multe%20despre%20despre%20planificarea%20mea%20financiar%C4%83.">
-          <span class="ccard__label">Email</span>
-          <span class="ccard__value">ralucar849@gmail.com</span>
-          <span class="ccard__go" aria-hidden="true">Mesajul e deja scris →</span>
+      <div class="contact__main">
+        <a class="booking" href="https://hub.velagroup.ro/portal/inscriere/3abee146-41b6-4f68-91c8-6b47c3c40946" target="_blank" rel="noopener">
+          <span class="booking__label">Programare online</span>
+          <span class="booking__title">Programează o întâlnire gratuită</span>
+          <span class="booking__text">Completezi un formular scurt și îți alegi intervalul care ți se potrivește.</span>
+          <span class="booking__go">Mergi la programare <span aria-hidden="true">→</span></span>
         </a>
 
-        <a class="ccard" href="https://wa.me/40743654665?text=Bun%C4%83%21%20Am%20v%C4%83zut%20site-ul%20t%C4%83u%20%C8%99i%20a%C8%99%20vrea%20s%C4%83%20programez%20o%20discu%C8%9Bie%20gratuit%C4%83%20de%20planificare%20financiar%C4%83." target="_blank" rel="noopener">
-          <span class="ccard__label">WhatsApp</span>
-          <span class="ccard__value">0743 654 665</span>
-          <span class="ccard__go" aria-hidden="true">Scrie-mi pe WhatsApp →</span>
-        </a>
+        <p class="contact__alt">Preferi să vorbim direct? Mă găsești și aici:</p>
 
-        <div class="ccard ccard--static">
-          <span class="ccard__label">Întâlnirea</span>
-          <span class="ccard__value">În Sibiu sau pe Zoom</span>
-          <span class="ccard__go">30–45 de minute · gratuit · fără obligații</span>
+        <div class="contact__cards">
+          <div class="ccard ccard--static">
+            <span class="ccard__label">Telefon &amp; WhatsApp</span>
+            <span class="ccard__value">0743 654 665</span>
+            <div class="ccard__actions">
+              <a class="chip" href="tel:+40743654665">Sună-mă</a>
+              <a class="chip" href="https://wa.me/40743654665?text=Bun%C4%83%21%20Am%20v%C4%83zut%20site-ul%20t%C4%83u%20%C8%99i%20a%C8%99%20vrea%20s%C4%83%20programez%20o%20discu%C8%9Bie%20gratuit%C4%83%20de%20planificare%20financiar%C4%83." target="_blank" rel="noopener">Scrie-mi pe WhatsApp</a>
+            </div>
+            <span class="ccard__go">Mesajul pe WhatsApp e deja scris, trebuie doar să apeși „Trimite”.</span>
+          </div>
+
+          <div class="ccard ccard--static">
+            <span class="ccard__label">Email</span>
+            <span class="ccard__value">raluca.radescu@velagroup.ro</span>
+            <div class="ccard__actions">
+              <a class="chip" href="mailto:raluca.radescu@velagroup.ro?subject=Programare%20discu%C8%9Bie%20gratuit%C4%83%20-%20planificare%20financiar%C4%83&body=Bun%C4%83%21%20Am%20v%C4%83zut%20site-ul%20t%C4%83u%20%C8%99i%20mi-a%20atras%20aten%C8%9Bia%20activitatea%20pe%20care%20o%20desf%C4%83%C8%99ori.%20A%C8%99%20fi%20interesat%28%C4%83%29%20de%20o%20discu%C8%9Bie%20gratuit%C4%83%20pentru%20a%20afla%20mai%20multe%20despre%20planificarea%20mea%20financiar%C4%83.">Scrie-mi un email</a>
+              <a class="chip chip--quiet" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=raluca.radescu@velagroup.ro&amp;su=Programare%20discu%C8%9Bie%20gratuit%C4%83%20-%20planificare%20financiar%C4%83&amp;body=Bun%C4%83%21%20Am%20v%C4%83zut%20site-ul%20t%C4%83u%20%C8%99i%20mi-a%20atras%20aten%C8%9Bia%20activitatea%20pe%20care%20o%20desf%C4%83%C8%99ori.%20A%C8%99%20fi%20interesat%28%C4%83%29%20de%20o%20discu%C8%9Bie%20gratuit%C4%83%20pentru%20a%20afla%20mai%20multe%20despre%20planificarea%20mea%20financiar%C4%83." target="_blank" rel="noopener">Deschide în Gmail</a>
+            </div>
+            <span class="ccard__go">Mesajul e deja scris, trebuie doar să apeși „Trimite”.</span>
+          </div>
         </div>
       </div>
     </div>
@@ -656,6 +673,21 @@ if (!reduce && 'IntersectionObserver' in window) {
 </script>
 
 <script>
+/* ---------- calculatoare: deschide / ascunde ---------- */
+const toolsToggle = document.getElementById('tools-toggle');
+const toolsPanel = document.getElementById('tools-panel');
+function setTools(open) {
+  toolsPanel.hidden = !open;
+  toolsToggle.setAttribute('aria-expanded', open);
+  toolsToggle.innerHTML = open
+    ? 'Ascunde calculatoarele <span aria-hidden="true">↑</span>'
+    : 'Deschide calculatoarele <span aria-hidden="true">↓</span>';
+}
+toolsToggle.addEventListener('click', () => setTools(toolsPanel.hidden));
+document.querySelectorAll('a[href="#instrumente"]').forEach(a =>
+  a.addEventListener('click', () => setTools(true)));
+if (location.hash === '#instrumente') setTools(true);
+
 /* ---------- calculatoare: tab-uri ---------- */
 const tabs = [...document.querySelectorAll('.tab')];
 function arataTab(t) {
